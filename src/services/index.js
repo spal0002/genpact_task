@@ -5,7 +5,12 @@ export const setLocalStorage = () => {
 }
 
 const getMockData = () => {
-    return JSON.parse(localStorage.getItem('mockData'));
+    if (localStorage.getItem('mockData') != null){
+        return JSON.parse(localStorage.getItem('mockData'));
+    } else {
+        setMockData(mockData);
+        return JSON.parse(JSON.stringify(mockData))
+    }
 }
 
 const setMockData = (mockData) => {
