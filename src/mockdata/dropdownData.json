@@ -1,0 +1,10 @@
+{
+	"states": [
+		{
+			"KARNATAKA": ["BANGALORE","MYSORE","MANGALORE"],
+			"TAMILNADU": ["CHENNAI","COIMBATORE","VELLORE"],
+            "ANDHRA PRADESH": ["AMARAVATHI","VIJAYAWADA","GUNTUR"],
+            "KERALA": ["TRIVENDRAM","COCHIN","ERNAKULAM"]
+		}
+	]
+}

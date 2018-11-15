@@ -1,0 +1,18 @@
+
+body {
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.container {
+  min-height: 400px;
+  width: 400px;
+}
+
+.ms-Callout-main {
+  max-height: 320px !important;
+  overflow-y: scroll !important;
+}
+.docs-DropdownExample {
+  margin: 20px 20px;
+}
